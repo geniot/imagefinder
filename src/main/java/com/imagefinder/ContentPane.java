@@ -59,11 +59,13 @@ public class ContentPane extends JPanel {
         });
     }
 
-    public void updatePager(){
+    public void updatePager() {
         pager1.setText(String.valueOf(currentPage));
     }
 
     public void search(String text) {
+        text = text.toLowerCase();
+
         if (Utils.isValidISOLatin1(text) && !isLatin) {
             return;
         }

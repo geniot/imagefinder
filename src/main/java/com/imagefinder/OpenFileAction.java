@@ -22,7 +22,7 @@ public class OpenFileAction extends AbstractAction {
             @Override
             public boolean accept(File f) {
                 if (f.isDirectory()) {
-                    return false;
+                    return true;
                 }
 
                 String extension = Utils.getExtension(f);
