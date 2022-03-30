@@ -6,7 +6,7 @@
 
     <groupId>imagefinder</groupId>
     <artifactId>imagefinder</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <properties>
