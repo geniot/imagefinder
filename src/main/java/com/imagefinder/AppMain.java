@@ -117,7 +117,7 @@ public class AppMain extends JFrame {
             }
         });
 
-        setTitle("ImageFinder v.0.2");
+        setTitle("ImageFinder v.0.3");
 
         //showing our app actually
         setVisible(true);
